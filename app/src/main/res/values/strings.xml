@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">EfisheryTaskApplication</string>
+    <string name="search_hint">Cari komoditas, lokasi disini</string>
+    <string name="input_commodity_data">Masukan Data Komoditas Disini</string>
+    <string name="commodity">Komoditas</string>
+    <string name="province">Provinsi</string>
+    <string name="city">Kota</string>
+    <string name="size">Ukuran</string>
+    <string name="price">Harga</string>
+    <string name="submit">Submit</string>
+    <string name="sort_and_filter">Filter dan Urutkan</string>
+    <string name="filter_search">Filter Pencarian</string>
+    <string name="apply">Terapkan</string>
+    <string name="sort">Urutkan</string>
+</resources>

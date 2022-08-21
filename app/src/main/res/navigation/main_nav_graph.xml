@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main_nav_graph"
+    app:startDestination="@id/homeScreenView">
+
+    <fragment
+        android:id="@+id/homeScreenView"
+        android:name="com.example.efisherytaskapplication.view.HomeScreenView"
+        android:label="HomeScreenView" >
+        <action
+            android:id="@+id/action_homeScreenView_to_commodityInputScreenView"
+            app:destination="@id/commodityInputScreenView" />
+    </fragment>
+    <fragment
+        android:id="@+id/commodityInputScreenView"
+        android:name="com.example.efisherytaskapplication.view.CommodityInputScreenView"
+        android:label="CommodityInputScreenView" />
+</navigation>
